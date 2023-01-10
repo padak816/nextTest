@@ -7,7 +7,7 @@ const index = ({ photo }) => {
 	return (
 		<div>
 			<h2>{title}</h2>
-			<Image src={url} width={500} height={500} />
+			<Image src={url} width={500} height={500} alt={title} />
 			<Link href="/photos">go back</Link>
 		</div>
 	);
